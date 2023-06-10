@@ -1,0 +1,25 @@
+POST http://localhost:5000/api/students/
+Content-Type: application/json
+
+{
+    "name": "name-1",
+    "rollNumber": "roll-1",
+    "degree": "deg-1",
+    "grade": "grd-1"
+}
+
+###
+PUT http://localhost:5000/api/students/6482b62714f8a84019ca7513/
+Content-Type: application/json
+
+{
+    "name": "New name",
+    "degree": "BTech"
+}
+
+###
+
+GET http://localhost:5000/api/students/
+
+###
+DELETE http://localhost:5000/api/students/6482b8da43b38c7ee5650086
